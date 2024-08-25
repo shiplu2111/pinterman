@@ -76,8 +76,15 @@ export default function Home() {
      
     </div>
 
-    <div className="mt-12 text-center">
-      
+    <div className="mt-12 text-center shadow-pink-500/10">
+    <span class="relative flex justify-center">
+  <div
+    class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-50"
+  ></div>
+
+  <span class="relative z-10  px-6">Copyright © 2001-2024 Zaas Management Sdn Bhd (1001860-X)</span>
+</span>
+    
     </div>
   </div>
 </section>
